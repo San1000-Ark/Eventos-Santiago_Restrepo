@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #0c6d1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  border-bottom: 1px solid black;
+}
+
+.sidebar li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: #0c6d1c;
+  transition: background 0.3s, color 0.3s;
+}
+
+.sidebar li a:hover,
+.sidebar li.active a {
+  background-color: #409F32;
+  color: white;
+}
+
+.sidebar .bottom {
+  border-top: 1px solid black;
+}
+
+.sidebar .bottom a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #0c6d1c;
+  transition: background 0.3s, color 0.3s;
+}
+
+.sidebar .bottom a:hover {
+  background-color: #409F32;
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Estilos extra */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+td a {
+  color: red;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+.search-bar {
+  margin-bottom: 15px;
+}
+
+#buscar {
+  padding: 5px;
+  margin-top: 5px;
+  width: 300px;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.message-card {
+  border: 1px solid white;
+  padding: 10px;
+  background-color: #222;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-body {
+  margin-top: 5px;
+}
+
+.email {
+  color: #ccc;
+  font-size: 0.9em;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Suscripciones</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <ul>
+        <li><a href="index.html">Escritorio</a></li>
+        <li class="active"><a href="suscripcion.html">Suscripciones</a></li>
+        <li><a href="#">Gestión de eventos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+      <div class="bottom">
+        <a href="#">Salir</a>
+      </div>
+    </div>
+
+    <main class="main-content">
+      <h2>Suscripciones</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Correo electrónico</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-suscripciones">
+          <!-- Cargado por JS -->
+        </tbody>
+      </table>
+    </main>
+  </div>
+
+  <script src="suscripcion.js"></script>
+</body>
+</html>

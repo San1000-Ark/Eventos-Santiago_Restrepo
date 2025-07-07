@@ -1,0 +1,30 @@
+{
+  "suscripciones": [
+    { "id": 1, "correo": "perez@gmail.com" },
+    { "id": 2, "correo": "arroz@gmail.com" },
+    { "id": 3, "correo": "maria@example.com" }
+  ],
+  "contactos": [
+    {
+      "id": 1,
+      "nombre": "Antony martinez",
+      "correo": "antony@gmail.com",
+      "fecha": "2024-06-20",
+      "mensaje": "Este es un mensaje de prueba para contacto 1."
+    },
+    {
+      "id": 2,
+      "nombre": "Maria Lopez",
+      "correo": "maria@gmail.com",
+      "fecha": "2024-06-21",
+      "mensaje": "Hola, tengo dudas sobre el evento."
+    },
+    {
+      "id": 3,
+      "nombre": "Pedro Ramírez",
+      "correo": "pedro@gmail.com",
+      "fecha": "2024-06-25",
+      "mensaje": "Quiero más información."
+    }
+  ]
+}
